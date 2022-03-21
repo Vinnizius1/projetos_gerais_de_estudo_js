@@ -46,6 +46,7 @@ let a2 = criaProduto("Calça", 300);
 // );
 // console.log(a2.calculaDesconto());
 
+/* Step 3 */
 //O JavaScript JÁ TEM uma sintaxe para definir a estrutura commum entre os objetos
 function Produto(paramNome, paramPreco) {
   this.nome = paramNome;
@@ -86,4 +87,4 @@ c1.calculaDesconto();
 // 2º definimos atributos dentro de constructor
 // 3º o método calculaDesconto fica à parte, sem o this
 
-
+/* fonte: https://www.alura.com.br/artigos/construtores-em-javascript */
