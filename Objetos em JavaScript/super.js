@@ -49,6 +49,13 @@ let teacher = new Teacher("Romualdo", 49, 60);
 // console.log(teacher.classSize);
 
 student.hello();
+// Hello Vinicius
+// You are 37 years old.
+// Your gpa is 4.5
+
 teacher.hello();
+// Hello Romualdo
+// You are 49 years old.
+// Your class size is 60
 
 /* fonte: https://www.youtube.com/watch?v=khuDeNwXkfI&ab_channel=BroCode */
