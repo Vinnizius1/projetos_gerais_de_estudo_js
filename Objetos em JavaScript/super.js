@@ -43,10 +43,16 @@ let teacher = new Teacher("Romualdo", 49, 60);
 // console.log(student.name);
 // console.log(student.age);
 // console.log(student.gpa);
+// Vinicius
+// 37
+// 4.5
 
 // console.log(teacher.name);
 // console.log(teacher.age);
 // console.log(teacher.classSize);
+// Romualdo
+// 49
+// 60
 
 student.hello();
 // Hello Vinicius

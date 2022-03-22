@@ -44,7 +44,10 @@ let a2 = criaProduto("Calça", 300);
 //   a1.calculaDesconto(),
 //   "reais."
 // );
+// O nome do produto a1 é Blusa e teve um desconto de 12 reais.
+
 // console.log(a2.calculaDesconto());
+// 30
 
 /* Step 3 */
 //O JavaScript JÁ TEM uma sintaxe para definir a estrutura commum entre os objetos
@@ -58,6 +61,7 @@ function Produto(paramNome, paramPreco) {
 
 // let b1 = new Produto("Blusa", 120);
 // b1.calculaDesconto();
+// O valor do desconto da blusa é de 12 reais.
 
 //Observe que:
 // 1º não precisamos retornar o Objeto
@@ -75,12 +79,13 @@ class Vestuario {
         this.preco = paramPreco;
     }
     calculaDesconto() {
-        console.log(this.preco * 0.1);
+        console.log(this.preco * 0.3);
     }
 }
 
-let c1 = new Vestuario("Blusa", 120);
-c1.calculaDesconto();
+// let c1 = new Vestuario("Blusa", 120);
+// c1.calculaDesconto();
+// 36
 
 //Observe que:
 // 1º temos uma class, e não mais uma function
