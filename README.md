@@ -1,7 +1,5 @@
-## 🛬 Primeiro assunto:   
+## 🛬 Assuntos:   
 ### ✔️ *objetos* 😰    
-    
-## 🛬 Segundo assunto:    
+      
 ### ✔️ *JavaScript ES6+* 😲    
-
-
+   
