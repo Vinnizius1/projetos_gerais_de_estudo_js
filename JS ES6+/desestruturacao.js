@@ -13,22 +13,24 @@ const cliente = {
 
 const log = (dado) => console.log(dado);
 
-// log(cliente.nome);
-// log(cliente.cpf);
-// log(cliente.endereco.pais);
+// log(cliente.nome); /* Vinicius Matos */
+// log(cliente.cpf); /* 011.111.111.11 */
+// log(cliente.endereco.pais); /* Brasil */
 
-/* Desestruturando */
+/* 
+Agora vamos desestruturar o objeto "cliente"
+*/
 const { nome, cpf, endereco } = cliente;
-// log(nome);
-// log(cpf);
-// log(endereco);
-// log(endereco.rua)
+// log(nome); /* Vinicius Matos */
+// log(cpf); /* 011.111.111.11 */
+// log(endereco); /* { rua: 'Avenida JS', cidade: 'Typora', estado: 'GO', pais: 'Brasil' } */
+// log(endereco.rua); /* Avenida JS */
 
 function clienteDesestruturado({ nome, cpf, endereco: { rua } }) {
-  log(nome);
-  log(cpf);
-  log(endereco);
-  log("Nome da rua: " + rua);
+  log(nome); /* Vinicius Matos */
+  log(cpf); /* 011.111.111.11 */
+  log(endereco); /* { rua: 'Avenida JS', cidade: 'Typora', estado: 'GO', pais: 'Brasil' } */
+  log("Nome da rua: " + rua); /* Nome da rua: Avenida JS */
 }
 
 clienteDesestruturado(cliente);
