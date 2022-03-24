@@ -1,5 +1,4 @@
-## 🛬 Assuntos:   
-### ✔️ *Objetos* 😰    
-      
-### ✔️ *JavaScript ES6+* 😲    
+## 🛬 Assuntos:    
+### ✔️ *JavaScript ES6+* 😲      
+### ✔️ *Objetos* 😰 
    
